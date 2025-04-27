@@ -1,3 +1,4 @@
+# General
 *.iml
 .gradle
 /local.properties
@@ -7,11 +8,85 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/*/gradle.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-*.properties
-/gradle
-/gradle/*
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.db
+*.lock
+*.log
+*.idx
+*.bin
+*.hprof
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+**/build/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Proguard
+proguard/
+proguard-rules.pro
+
+# Signing
+signing.properties
+
+# Android Studio
+.idea/
+*.ipr
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+
+# Kotlin specific
+*.kotlin_module
+
+# IntelliJ
+out/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android specific
+*.dex
+*.class
+
+# Google Services (Firebase)
+google-services.json
+app/google-services.json
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# NDK
+obj/
+
+# VS Code (optional, if you sometimes open with VSCode)
+.vscode/
+
+# OS generated files
+ehthumbs.db
+Thumbs.db
+
+# Crashlytics / Firebase
+fabric.properties
+crashlytics-build.properties
